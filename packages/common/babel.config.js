@@ -71,15 +71,13 @@ const createSuirCJSTransform = (env = 'commonjs') => [
 const createMuiTransform = (env) => [
   'transform-imports',
   {
-    '@material-ui/lab': {
-      transform: (importName) => (env ? `@material-ui/lab/${env}/${importName}` : `@material-ui/lab/${importName}`),
-      preventFullImport: false,
-      skipDefaultConversion: false
-    },
     '@material-ui/core': {
-      transform: (importName) => (env ? `@material-ui/core/${env}/${importName}` : `@material-ui/core/${importName}`),
-      preventFullImport: false,
-      skipDefaultConversion: false
+      transform: '@material-ui/core/${member}',
+      preventFullImport: true
+    },
+    '@material-ui/lab': {
+      transform: '@material-ui/lab/${member}',
+      preventFullImport: true
     }
   },
   `MUI-${env || 'commonjs'}`
@@ -293,7 +291,7 @@ module.exports = {
       presets: [['@babel/preset-env', { modules: false }]],
       plugins: [
         createSuirCJSTransform('es'),
-        createMuiTransform('esm'),
+        createMuiTransform(),
         createPfReactTransform('esm'),
         createBluePrintTransform('esm'),
         createAntTransform('esm'),
