@@ -1242,6 +1242,16 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
+"@data-driven-forms/common@*":
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/@data-driven-forms/common/-/common-3.6.2.tgz#76c3fab26a638deb0716070e576b45effa64bf2b"
+  integrity sha512-KCUX59opYgaJ38Pp8K2OSqmnLaqVALuPn0DWsUOr83YzvzSMNqn79Xpoh8zP9rwmlCZnJuoKs/0NheTrVdBe0w==
+  dependencies:
+    clsx "^1.0.4"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+    react-select "^3.0.8"
+
 "@data-driven-forms/form-builder@0.0.11-rc3":
   version "0.0.11-rc3"
   resolved "https://registry.yarnpkg.com/@data-driven-forms/form-builder/-/form-builder-0.0.11-rc3.tgz#6e24d4270dcf6602c70305be48dca051152a1c1d"
