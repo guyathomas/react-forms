@@ -1,4 +1,4 @@
-import { AnyObject, Field } from "@data-driven-forms/react-form-renderer";
+import { AnyObject, Field } from '@guyathomas/data-driven-forms-react-form-renderer';
 export interface WizardProps extends AnyObject {
   fields: Field[];
   isDynamic?: boolean;
@@ -8,6 +8,6 @@ export interface WizardProps extends AnyObject {
   initialState?: AnyObject;
 }
 
-declare const Wizard: React.ComponentType<WizardProps>
-export const wizardProps: AnyObject
+declare const Wizard: React.ComponentType<WizardProps>;
+export const wizardProps: AnyObject;
 export default Wizard;

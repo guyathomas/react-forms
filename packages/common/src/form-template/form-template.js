@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useFormApi, FormSpy } from '@data-driven-forms/react-form-renderer';
+import { useFormApi, FormSpy } from '@guyathomas/data-driven-forms-react-form-renderer';
 
 export const isDisabled = (disableStates, getState) => disableStates.map((item) => getState()[item]).find((item) => !!item);
 

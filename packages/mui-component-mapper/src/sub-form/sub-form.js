@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Typography, Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-import { useFormApi } from '@data-driven-forms/react-form-renderer';
+import { useFormApi } from '@guyathomas/data-driven-forms-react-form-renderer';
 
 const useStyles = makeStyles(() => ({
   grid: {

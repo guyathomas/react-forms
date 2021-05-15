@@ -1,5 +1,13 @@
-import { UseFieldApiComponentConfig } from '@data-driven-forms/react-form-renderer';
-import { CheckboxProps as MuiCheckboxProps, GridProps, FormControlProps, FormGroupProps, FormControlLabelProps, FormLabelProps, FormHelperTextProps } from '@material-ui/core';
+import { UseFieldApiComponentConfig } from '@guyathomas/data-driven-forms-react-form-renderer';
+import {
+  CheckboxProps as MuiCheckboxProps,
+  GridProps,
+  FormControlProps,
+  FormGroupProps,
+  FormControlLabelProps,
+  FormLabelProps,
+  FormHelperTextProps
+} from '@material-ui/core';
 
 interface InternalCheckboxProps extends MuiCheckboxProps {
   FormFieldGridProps?: GridProps;

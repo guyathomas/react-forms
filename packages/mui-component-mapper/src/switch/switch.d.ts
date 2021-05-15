@@ -1,6 +1,14 @@
-import { UseFieldApiComponentConfig } from "@data-driven-forms/react-form-renderer";
-import { SwitchProps as MuiSwitchProps, GridProps, FormControlProps, FormGroupProps, FormControlLabelProps, FormLabelProps, FormHelperTextProps } from '@material-ui/core';
-import { ReactNode } from "react";
+import { UseFieldApiComponentConfig } from '@guyathomas/data-driven-forms-react-form-renderer';
+import {
+  SwitchProps as MuiSwitchProps,
+  GridProps,
+  FormControlProps,
+  FormGroupProps,
+  FormControlLabelProps,
+  FormLabelProps,
+  FormHelperTextProps
+} from '@material-ui/core';
+import { ReactNode } from 'react';
 
 interface InternalSwitchProps extends MuiSwitchProps {
   isReadOnly?: boolean;

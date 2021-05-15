@@ -2,8 +2,8 @@ import React from 'react';
 import { mount } from 'enzyme';
 import { act } from 'react-dom/test-utils';
 import { FormLabel } from '@material-ui/core';
-import MultipleChoiceListCommon from '@data-driven-forms/common/multiple-choice-list';
-import { FormRenderer, componentTypes, validatorTypes } from '@data-driven-forms/react-form-renderer';
+import MultipleChoiceListCommon from '@guyathomas/data-driven-forms-common/multiple-choice-list';
+import { FormRenderer, componentTypes, validatorTypes } from '@guyathomas/data-driven-forms-react-form-renderer';
 import Checkbox from '../checkbox';
 
 import RenderWithProvider from '../../../../__mocks__/with-provider';

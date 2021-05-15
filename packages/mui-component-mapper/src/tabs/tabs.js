@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react';
 import PropTypes from 'prop-types';
 import { AppBar, Tab, Tabs } from '@material-ui/core';
 
-import { useFormApi } from '@data-driven-forms/react-form-renderer';
+import { useFormApi } from '@guyathomas/data-driven-forms-react-form-renderer';
 
 const TabContent = ({ name, fields, formOptions }) => <Fragment key={name}>{formOptions.renderForm(fields, formOptions)}</Fragment>;
 

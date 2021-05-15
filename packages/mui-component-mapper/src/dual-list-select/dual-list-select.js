@@ -25,7 +25,7 @@ import SortIcon from '@material-ui/icons/ArrowUpward';
 
 import { makeStyles } from '@material-ui/core/styles';
 
-import DualListSelectCommon from '@data-driven-forms/common/dual-list-select';
+import DualListSelectCommon from '@guyathomas/data-driven-forms-common/dual-list-select';
 
 import FormFieldGrid from '../form-field-grid/form-field-grid';
 import { validationError } from '../validation-error/validation-error';

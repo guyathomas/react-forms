@@ -1,5 +1,5 @@
-import { UseFieldApiComponentConfig, AnyObject } from "@data-driven-forms/react-form-renderer";
-import { ReactNode } from "react";
+import { UseFieldApiComponentConfig, AnyObject } from '@guyathomas/data-driven-forms-react-form-renderer';
+import { ReactNode } from 'react';
 import {
   GridProps,
   ListProps,
@@ -15,8 +15,8 @@ import {
   TypographyProps,
   ToolbarProps,
   TextFieldProps,
-  PaperProps,
-} from "@material-ui/core";
+  PaperProps
+} from '@material-ui/core';
 
 export interface DualListOption extends AnyObject {
   value: any;

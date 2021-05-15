@@ -1,17 +1,15 @@
-import { AnyObject, Input } from "@data-driven-forms/react-form-renderer";
+import { AnyObject, Input } from '@guyathomas/data-driven-forms-react-form-renderer';
 
-export type DualListSelectCommonProps<
-  FieldValue,
-  SelectProps = {}
->  = {
+export type DualListSelectCommonProps<FieldValue, SelectProps = {}> = {
   DualListSelect: React.ComponentType;
   options: {
     [key: string]: any;
-    label: React.ReactNode,
-    value: any 
+    label: React.ReactNode;
+    value: any;
   }[];
   input: Input<FieldValue>;
-} & SelectProps & AnyObject;
+} & SelectProps &
+  AnyObject;
 
 declare const DualListSelectCommon: React.ComponentType<DualListSelectCommonProps<any, {}>>;
 

@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 import FormFieldGrid from '../form-field-grid/form-field-grid';
 import { validationError } from '../validation-error/validation-error';
-import { meta } from '@data-driven-forms/common/prop-types-templates';
-import DDFSelect from '@data-driven-forms/common/select';
-import parseInternalValue from '@data-driven-forms/common/select/parse-internal-value';
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { meta } from '@guyathomas/data-driven-forms-common/prop-types-templates';
+import DDFSelect from '@guyathomas/data-driven-forms-common/select';
+import parseInternalValue from '@guyathomas/data-driven-forms-common/select/parse-internal-value';
+import { useFieldApi } from '@guyathomas/data-driven-forms-react-form-renderer';
 import { TextField, CircularProgress } from '@material-ui/core';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import Autocomplete from '@material-ui/lab/Autocomplete';

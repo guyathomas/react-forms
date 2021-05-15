@@ -1,5 +1,5 @@
 {
-  "name": "@data-driven-forms/react-form-renderer",
+  "name": "@guyathomas/data-driven-forms-react-form-renderer",
   "version": "3.6.3",
   "description": "React form renderer for data-driven-forms.",
   "main": "index.js",

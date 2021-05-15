@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FormControlLabel, FormHelperText, FormControl, FormGroup, FormLabel, Switch as MUISwitch } from '@material-ui/core';
-import { meta, input } from '@data-driven-forms/common/prop-types-templates';
+import { meta, input } from '@guyathomas/data-driven-forms-common/prop-types-templates';
 
 import FormFieldGrid from '../form-field-grid/form-field-grid';
 import { validationError } from '../validation-error/validation-error';
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@guyathomas/data-driven-forms-react-form-renderer';
 
 export const Switch = (props) => {
   const {

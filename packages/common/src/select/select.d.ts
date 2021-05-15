@@ -1,4 +1,4 @@
-import { AnyObject } from "@data-driven-forms/react-form-renderer";
+import { AnyObject } from '@guyathomas/data-driven-forms-react-form-renderer';
 
 type option = {
   [key: string]: any;

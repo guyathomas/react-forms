@@ -1,6 +1,6 @@
 import React from 'react';
 import { act } from 'react-dom/test-utils';
-import { FormRenderer, componentTypes } from '@data-driven-forms/react-form-renderer';
+import { FormRenderer, componentTypes } from '@guyathomas/data-driven-forms-react-form-renderer';
 import { mount } from 'enzyme';
 
 import { List, ListItem, Toolbar, TextField, Paper, Button, IconButton } from '@material-ui/core';

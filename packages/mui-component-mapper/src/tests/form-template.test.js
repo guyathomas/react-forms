@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormRenderer } from '@data-driven-forms/react-form-renderer';
+import { FormRenderer } from '@guyathomas/data-driven-forms-react-form-renderer';
 import { mount } from 'enzyme';
 import { Typography } from '@material-ui/core';
 

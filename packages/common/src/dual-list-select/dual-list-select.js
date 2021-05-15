@@ -2,7 +2,7 @@ import React, { useReducer } from 'react';
 import PropTypes from 'prop-types';
 import isEqual from 'lodash/isEqual';
 
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@guyathomas/data-driven-forms-react-form-renderer';
 
 import reducer, { initialState } from './reducer';
 

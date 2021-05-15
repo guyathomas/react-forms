@@ -1,6 +1,6 @@
-import { Field } from "@data-driven-forms/react-form-renderer";
-import { GridProps, TypographyProps } from "@material-ui/core";
-import { ReactNode } from "react";
+import { Field } from '@guyathomas/data-driven-forms-react-form-renderer';
+import { GridProps, TypographyProps } from '@material-ui/core';
+import { ReactNode } from 'react';
 
 export interface SubFormProps {
   fields: Field[] | Field;

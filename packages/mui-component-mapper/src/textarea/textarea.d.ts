@@ -1,6 +1,6 @@
-import { UseFieldApiComponentConfig } from "@data-driven-forms/react-form-renderer";
-import { TextFieldProps, GridProps, InputProps } from "@material-ui/core";
-import { ReactNode } from "react";
+import { UseFieldApiComponentConfig } from '@guyathomas/data-driven-forms-react-form-renderer';
+import { TextFieldProps, GridProps, InputProps } from '@material-ui/core';
+import { ReactNode } from 'react';
 
 interface InternalTextareaProps {
   isReadOnly?: boolean;

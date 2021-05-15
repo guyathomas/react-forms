@@ -1,6 +1,6 @@
 [![Data Driven Form logo](https://raw.githubusercontent.com/data-driven-forms/react-forms/master/images/logo.png)](https://data-driven-forms.org/)
 
-# `@data-driven-forms/common` - common code shared by multiple `@data-driven-forms/*` packages
+# `@guyathomas/data-driven-forms-common` - common code shared by multiple `@guyathomas/data-driven-forms-*` packages
 ￼
 This package exists to share code used by more than one data-driven-forms package, such as:
 
@@ -21,6 +21,6 @@ This packages is not released but can be referenced in mapper packages. Demo pac
 ## Usage
 ￼
 ```
-import demoSchema from '@data-driven-forms/common/demoschema';
+import demoSchema from '@guyathomas/data-driven-forms-common/demoschema';
 
 ```

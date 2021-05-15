@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { FieldArrayField } from "@data-driven-forms/react-form-renderer";
+import { FieldArrayField } from '@guyathomas/data-driven-forms-react-form-renderer';
 import { FormControlProps, GridProps, ButtonProps, FormHelperTextProps, TypographyProps } from "@material-ui/core";
 
 export interface FieldArrayButtonLabels {

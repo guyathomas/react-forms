@@ -1,4 +1,4 @@
-import { AnyObject } from '@data-driven-forms/react-form-renderer';
+import { AnyObject } from '@guyathomas/data-driven-forms-react-form-renderer';
 import {
   GridProps,
   FormControlLabelProps as MUIFormControlLabelProps,
@@ -10,16 +10,16 @@ import {
 } from '@material-ui/core';
 
 interface InternalCheckboxProps extends AnyObject {
-  FormFieldGridProps: GridProps,
-  FormControlProps: MUIFormControlProps,
-  FormGroupProps: MUIFormGroupProps,
-  FormControlLabelProps: MUIFormControlLabelProps,
-  CheckboxProps: MUICheckboxProps,
-  FormLabelProps: MUIFormLabelProps,
-  FormHelperTextProps: MUIFormHelperTextProps
+  FormFieldGridProps: GridProps;
+  FormControlProps: MUIFormControlProps;
+  FormGroupProps: MUIFormGroupProps;
+  FormControlLabelProps: MUIFormControlLabelProps;
+  CheckboxProps: MUICheckboxProps;
+  FormLabelProps: MUIFormLabelProps;
+  FormHelperTextProps: MUIFormHelperTextProps;
 }
 
-export type MultipleChoiceListProps = InternalCheckboxProps
+export type MultipleChoiceListProps = InternalCheckboxProps;
 
 declare const MultipleChoiceList: React.ComponentType<MultipleChoiceListProps>;
 

@@ -1,6 +1,6 @@
 import React, { useReducer, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { useFormApi, WizardContext } from '@data-driven-forms/react-form-renderer';
+import { useFormApi, WizardContext } from '@guyathomas/data-driven-forms-react-form-renderer';
 
 import get from 'lodash/get';
 import set from 'lodash/set';

@@ -1,5 +1,5 @@
-import { Field } from "@data-driven-forms/react-form-renderer";
-import { AppBarProps, TabProps } from "@material-ui/core";
+import { Field } from '@guyathomas/data-driven-forms-react-form-renderer';
+import { AppBarProps, TabProps } from '@material-ui/core';
 
 export interface TabsProps {
   fields: Field[];

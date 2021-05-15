@@ -1,5 +1,5 @@
 {
-  "name": "@data-driven-forms/mui-component-mapper",
+  "name": "@guyathomas/data-driven-forms-mui-component-mapper",
   "version": "3.6.3",
   "description": "Component mapper for Material ui component mapper form data-driven-forms.",
   "main": "index.js",
